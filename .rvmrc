@@ -1,0 +1,5 @@
+if [[ -s "/home/cnk/.rvm/environments/ruby-1.9.2-p290@railstutorial" ]] ; then
+  . "/home/cnk/.rvm/environments/ruby-1.9.2-p290@railstutorial"
+else
+  rvm --create use  "ruby-1.9.2-p290@railstutorial"
+fi
