@@ -69,6 +69,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.29)
+    will_paginate (3.0.1)
 
 PLATFORMS
   ruby
@@ -78,3 +79,4 @@ DEPENDENCIES
   gravatar_image_tag
   rails (= 3.0.10)
   sqlite3
+  will_paginate
