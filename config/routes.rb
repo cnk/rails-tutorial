@@ -1,6 +1,7 @@
 SampleApp::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
+  resources :microposts, :only => [:new, :create]
 
   # some aliases for stock RESTful routes
   match '/signup',  :to => 'users#new'
